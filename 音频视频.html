@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音频&视频</title>
+</head>
+<body>
+    <h3>Object -- 在html5之前的标签</h3>
+    <hr>
+    <br>
+    <object height="100" width="400" data="./image/看透世界.mp3"></object>
+    <object height="600" width="600" data="./image/GitHub基本介绍.mp4"></object>
+    <h3>embed -- html5特有的标签</h3>
+    <hr>
+    <br>
+    <embed height="100" width="400" src="./image/看透世界.mp3">
+    <embed height="400" width="600" src="./image/GitHub基本介绍.mp4">
+    <hr>
+    <br>
+    <h3>audio -- html5中推荐使用的音频标签</h3>
+    <audio controls="contros">
+        <source src="./image/看透世界.mp3" type="audio/mp3"/>
+    </audio>
+    <hr>
+    <br>
+    <h3>video -- html5 推荐使用的视频标签</h3>
+    <video height="400" width="600" controls="contors">
+        <source src="./image/GitHub基本介绍.mp4" type="video/mp4"/>
+    </video>
+
+</body>
+</html>
